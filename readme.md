@@ -28,7 +28,7 @@ with numerically integrated rays bounded by respective near and far bounds <em>t
 rendering loss and optimize the <em>F<sub>W</sub></em> weights via backpropagation.
 
 ## 1. Proof-of-concept I.: UAV video compression using Instant-NGP
-<img src="iisnerf_paper_figures/video_compression_overview_final.png"/>
+<img src="iisnerf_paper_figures/video_compression_overview.png"/>
 Fig. 2. (a) A UAV camera captures the environment. The real frame and pose of the camera are transmitted wirelessly to a nearby multiaccess edge computing
 (MEC) server. (b) The MEC server employs the NeRF model for novel view synthesis based on camera pose. The H.264 codec encodes real and NeRF frames
 to obtain P frame containing their differences, which is transferred through the network with the pose. (c) Receiver rebuilds the real frame using H.264 codec
