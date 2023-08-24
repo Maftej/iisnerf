@@ -1,5 +1,5 @@
 # Neural Radiance Fields in the Industrial and Robotics Domain: Applications, Research Opportunities and Use Cases
-[[PAPER]](https://arxiv.org/) 
+[[PAPER]](http://export.arxiv.org/abs/2308.07118) 
 
 The project IISNeRF is the implementation of two proof-of-concept experiments: <br>
 I. UAV video compression using Instant-NGP, <br>
