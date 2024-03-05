@@ -1,0 +1,93 @@
+{
+  "scenarios": [
+    {
+      "scenario": "MERGE_DATASETS",
+      "fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets",
+      "fused_dataset_folder_name": "factory_robotics",
+      "train_datasets_paths": [
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_dataset_normal5\\factory_dataset_normal5_train",
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_dataset_normal6\\factory_dataset_normal6_train",
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_dataset_normal7\\factory_dataset_normal7_train",
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_dataset_normal8\\factory_dataset_normal8_train",
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_dataset_normal9\\factory_dataset_normal9_train",
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_dataset_normal10\\factory_dataset_normal10_train"
+      ]
+    },
+    {
+      "scenario": "TRAIN",
+      "n_steps": 35000,
+      "aabb_scale_values": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "fused_dataset_folder_name": "factory_robotics",
+      "full_fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics"
+    },
+    {
+      "scenario": "TEST_DATASET",
+      "test_images_count": 159,
+      "aabb_scale_values": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "fused_dataset_folder_name": "factory_robotics",
+      "full_fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics"
+    },
+    {
+      "scenario": "EVAL_MODELS",
+      "eval_models_full_file_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics\\test\\evaluated_models.json",
+      "full_fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics"
+    },
+    {
+      "scenario": "EVAL_DATASET",
+      "eval_dataset_folder_name": "factory_robotics_eval",
+      "full_fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics",
+      "model_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\nerfs\\scenes\\factory_robotics_aabb_scale_128.ingp",
+      "trajectory_path": "C:\\Users\\mdopiriak\\Desktop\\blender_industrial_interrior_scenes\\factory_scenes\\scenes_dataset\\factory_robotics_dataset_eval\\factory_robotics_dataset_eval_train\\transforms_train.json"
+    },
+    {
+      "scenario": "IPFRAME_DATASET",
+      "ipframe_dataset_folder_name": "ipframe_dataset",
+      "iframe_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics\\eval\\factory_robotics_eval\\images",
+      "pframe_dataset_path": "C:\\Users\\mdopiriak\\Desktop\\blender_industrial_interrior_scenes\\factory_scenes\\scenes_dataset\\factory_robotics_dataset_eval\\factory_robotics_dataset_eval_train\\images_train",
+      "full_fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics"
+    },
+    {
+      "scenario": "ENCODE_IPFRAME_DATASET",
+      "h264_cfg": {
+        "preset": "veryfast",
+        "crf": "28"
+      },
+      "encoded_videos_folder_name": "res_1920x1080_preset_veryfast_crf_28",
+      "ipframe_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics\\videos\\ipframe_dataset\\images",
+      "encoded_videos_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics\\videos\\factory_robotics_videos"
+    },
+    {
+      "scenario": "EVAL_ENCODED_IPFRAME",
+      "pkt_size_file_name": "pkt_size_res_1920x1080_preset_veryfast_crf_28.json",
+      "ipframe_encoded_videos_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics\\videos\\factory_robotics_videos\\res_1920x1080_preset_veryfast_crf_28"
+    },
+    {
+      "scenario": "EVAL_TRAJECTORY",
+      "output_file_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics\\eval\\factory_robotics_eval\\eval_trajectory_res720x404.json",
+      "synthetic_dataset_path": "C:\\Users\\mdopiriak\\Desktop\\blender_industrial_interrior_scenes\\factory_scenes\\scenes_dataset\\factory_robotics_dataset_eval\\factory_robotics_dataset_eval_train\\images_train_res720x404",
+      "nerf_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\factory_robotics\\eval\\factory_robotics_eval\\images_res720x404"
+    }
+  ],
+  "reports": {
+    "report": "test_report",
+    "report_path": ""
+  }
+}

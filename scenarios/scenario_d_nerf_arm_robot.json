@@ -1,0 +1,42 @@
+{
+  "scenarios": [
+    {
+      "scenario": "MERGE_DATASETS",
+      "fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets",
+      "fused_dataset_folder_name": "arm_robot_dynamic_dataset",
+      "train_datasets_paths": [
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_dataset\\arm_robot_dataset_train",
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_dataset2\\arm_robot_dataset2_train",
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_dataset3\\arm_robot_dataset3_train"
+      ]
+    },
+    {
+      "scenario": "TRAIN",
+      "config_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\src\\d_nerf\\D_NeRF\\configs\\trex.txt"
+    },
+    {
+      "scenario": "EVAL_DATASET",
+      "eval_dataset_folder_name": "arm_robot_eval_dataset",
+      "full_fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\",
+      "model_path": "",
+      "trajectory_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\src\\d_nerf\\D_NeRF\\data\\arm_robot\\transforms_val.json"
+    },
+    {
+      "scenario": "EVAL_TRAJECTORY",
+      "output_file_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_eval_dataset\\d_nerf_disparity_map_val_psnr_ssim.json",
+      "synthetic_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_eval_dataset\\d_nerf_blender_disparity_map_train",
+      "nerf_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_eval_dataset\\d_nerf_model_disparity_map_train",
+      "file_format": "png"
+    },
+    {
+      "scenario": "PLOT_ALL_MAPS",
+      "time": 0.05,
+      "azimuth": -90,
+      "elevation": -20
+    },
+    {
+      "scenario": "PLOT_DATA",
+      "data_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_eval_dataset\\psnr_ssim_data_d_nerf.json"
+    }
+  ]
+}

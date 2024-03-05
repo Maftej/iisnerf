@@ -1,0 +1,27 @@
+expname = arm_robot
+basedir = C:\Users\mdopiriak\PycharmProjects\iis_nerf\src\d_nerf\D_NeRF\logs
+datadir = ./data/arm_robot
+dataset_type = blender
+
+nerf_type = direct_temporal
+no_batching = True
+not_zero_canonical = False
+use_viewdirs = True
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+N_iter = 800000
+N_samples = 128
+N_importance = 160
+N_rand = 512
+testskip = 1
+
+precrop_iters = 500
+precrop_iters_time = 500
+precrop_frac = 0.5
+
+half_res = True
+do_half_precision = False
+

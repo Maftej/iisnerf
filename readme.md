@@ -6,18 +6,7 @@ I. UAV video compression using Instant-NGP, <br>
 II. Obstacle avoidance using D-NeRF.
 
 ## Abstract
-The proliferation of technologies, such as extended reality (XR), has increased the demand for high-quality three-
-dimensional (3D) graphical representations. Industrial 3D applications encompass computer-aided design (CAD), finite element analysis (FEA), scanning, and robotics. However, current
-methods employed for industrial 3D representations suffer from high implementation costs and reliance on manual human input
-for accurate 3D modeling. To address these challenges, neural radiance fields (NeRFs) have emerged as a promising approach
-for learning 3D scene representations based on provided training 2D images. Despite a growing interest in NeRFs, their potential
-applications in various industrial subdomains are still unexplored. In this paper, we deliver a comprehensive examination of
-NeRF industrial applications while also providing direction for future research endeavors. We also present a series of proof-of-
-concept experiments that demonstrate the potential of NeRFs in the industrial domain. These experiments include NeRF-
-based video compression techniques and using NeRFs for 3D motion estimation in the context of collision avoidance. In the
-video compression experiment, our results show compression savings up to 48% and 74% for resolutions of 1920x1080 and
-300x168, respectively. The motion estimation experiment used a 3D animation of a robotic arm to train Dynamic-NeRF (D-NeRF)
-and achieved an average disparity map PSNR of 23 dB and an SSIM of 0.97.
+The proliferation of technologies, such as extended reality (XR), has increased the demand for high-quality three-dimensional (3D) graphical representations. Industrial 3D applications encompass computer-aided design (CAD), finite element analysis (FEA), scanning, and robotics. However, current methods employed for industrial 3D representations suffer from high implementation costs and reliance on manual human input for accurate 3D modeling. To address these challenges, neural radiance fields (NeRFs) have emerged as a promising approach for learning 3D scene representations based on provided training 2D images. Despite a growing interest in NeRFs, their potential applications in various industrial subdomains are still unexplored. In this paper, we deliver a comprehensive examination of NeRF industrial applications while also providing direction for future research endeavors. We also present a series of proof-of-concept experiments that demonstrate the potential of NeRFs in the industrial domain. These experiments include NeRF-based video compression techniques and using NeRFs for 3D motion estimation in the context of collision avoidance. In the video compression experiment, our results show compression savings up to 48% and 74% for resolutions of 1920x1080 and 300x168, respectively. The motion estimation experiment used a 3D animation of a robotic arm to train Dynamic-NeRF (D-NeRF) and achieved an average peak signal-to-noise ratio (PSNR) of disparity map with the value of 23 dB and an structural similarity index measure (SSIM) 0.97.
 
 
 <img src="iisnerf_paper_figures/original_nerf_overview.png"/>

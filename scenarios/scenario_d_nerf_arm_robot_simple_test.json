@@ -1,0 +1,12 @@
+{
+  "scenarios": [
+    {
+      "scenario": "MERGE_DATASETS",
+      "fused_dataset_path": "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets",
+      "fused_dataset_folder_name": "arm_robot_dynamic_simple_dataset_test",
+      "train_datasets_paths": [
+        "C:\\Users\\mdopiriak\\PycharmProjects\\iis_nerf\\datasets\\arm_robot_static_dataset_test\\arm_robot_static_dataset_test_train"
+      ]
+    }
+  ]
+}

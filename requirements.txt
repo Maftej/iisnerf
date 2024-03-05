@@ -1,0 +1,5 @@
+opencv==4.6.0
+torch==1.13.1
+pytorch-cuda==11.6
+matplotlib==3.6.2
+scikit-image==0.19.3
