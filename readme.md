@@ -1,5 +1,5 @@
 # Neural Radiance Fields in the Industrial and Robotics Domain: Applications, Research Opportunities and Use Cases
-[[PAPER]](http://export.arxiv.org/abs/2308.07118) 
+[[PAPER]](https://doi.org/10.1016/j.rcim.2024.102810) 
 
 The project IISNeRF is the implementation of two proof-of-concept experiments: <br>
 I. UAV video compression using Instant-NGP, <br>
@@ -379,10 +379,15 @@ The list of ffmpeg commands used in the first proof-of-concept experiments:
 ## 6. Citation
 If you use this code or ideas from the paper for your research, please cite our paper:
 ```
-@article{slapak2023nerfsird,
-  title={Neural Radiance Fields in the Industrial and Robotics Domain: Applications, Research Opportunities and Use Cases},
-  author={Šlapak, Eugen and Pardo, Enric and Dopiriak, Matúš and Maksymyuk, Taras and Gazda, Juraj},
-  journal={},
-  year={2023}
+@article{slapak2024102810,
+title = {Neural radiance fields in the industrial and robotics domain: Applications, research opportunities and use cases},
+journal = {Robotics and Computer-Integrated Manufacturing},
+volume = {90},
+pages = {102810},
+year = {2024},
+issn = {0736-5845},
+doi = {https://doi.org/10.1016/j.rcim.2024.102810},
+url = {https://www.sciencedirect.com/science/article/pii/S0736584524000978},
+author = {Eugen Šlapak and Enric Pardo and Matúš Dopiriak and Taras Maksymyuk and Juraj Gazda}
 }
 ```
